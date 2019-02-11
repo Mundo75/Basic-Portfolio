@@ -1,0 +1,103 @@
+/*style for portfolio first page index.html*/
+
+body {
+    margin: 0px auto;
+    background-image: url(../images/background.png);
+}
+
+header {
+    background-color: #ffffff;;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0px;
+    border-bottom: 2px solid #b8bcbd;
+    
+    
+}
+
+#name {
+    height: 75;
+    width: 325px;
+    padding: 5px 0px 4px 15px;
+    margin-left: 285px;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color:#4aaaa5;
+}
+
+header nav {
+    float: right;
+    margin-right: 260px;
+    padding-top: 10px;
+
+}
+
+header li {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 18px;
+    margin-right: 10px;
+    border-right: 1px solid gray;
+    padding-right: 15px;
+}
+
+.bio {
+    width: 960px;
+    background-color: #ffffff;
+    margin-top: 125px;
+    margin-left: 285px;
+      
+}
+
+.container {
+    width: 920px;
+    background-color: #ffffff;
+    margin: 0px 20px 0px 20px;
+}
+
+#aboutMe {
+    height: 70px;
+    width: 910px;
+    padding: 10px 0px 0px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border-bottom: 3px solid #e9e9e9;
+    margin-bottom: 10px;
+   
+}
+
+
+
+#bioPic {
+    height: 200px;
+    float: left;
+    margin-right: 8px;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: gray;
+    padding-bottom: 10px;
+
+   
+}
+
+
+footer {
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    padding-top: 40px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+    border-top: 5px solid #4aaaa5;
+
+
+}
