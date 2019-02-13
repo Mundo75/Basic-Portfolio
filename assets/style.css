@@ -5,6 +5,10 @@ body {
     background-image: url(../images/background.png);
 }
 
+body :hover {
+    background-color: maroon
+}
+
 header {
     background-color: #ffffff;;
     width: 100%;
@@ -82,8 +86,11 @@ header li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: gray;
-    padding-bottom: 10px;  
+    padding-bottom: 10px; 
+     
 }
+
+
 
 /*Contacts specific styling*/
 
