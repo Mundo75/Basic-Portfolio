@@ -119,6 +119,39 @@ form {
     Margin-top: 10px;
 }
 
+
+/*Portfolio specific styling*/
+
+#container3 {
+    width: 960;
+}
+
+ .projectPic {
+    height: 200px;
+    width: 200px;
+}
+
+#hangman {
+    margin: 0px 40px 20px 0px;
+}
+
+#rpg {
+    margin: 0px 40px 20px 0px;
+}
+
+#trivia {
+    margin: 0px 40px 20px 0px;
+    
+}
+
+#widget {
+    margin: 0px 40px 20px 0px;
+}
+
+#roshambo {
+    margin: 0px 40px 20px 0px;
+}
+
 footer {
     clear: both;
     background-color: #666666;
