@@ -12,7 +12,7 @@ body :hover {
 header {
     background-color: #ffffff;;
     width: 100%;
-    height: 75px;
+    height: 65px;
     position: fixed;
     top: 0px;
     border-bottom: 2px solid #b8bcbd;
@@ -21,9 +21,9 @@ header {
 }
 
 #name {
-    height: 75;
+    height: 55px;
     width: 325px;
-    padding: 5px 0px 4px 15px;
+    padding: 5px 0px 5px 15px;
     margin-left: 285px;
     margin-top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -51,7 +51,7 @@ header li {
 .centerSection {
     width: 960px;
     background-color: #ffffff;
-    margin-top: 125px;
+    margin-top: 100px;
     margin-left: 285px;
       
 }
@@ -64,9 +64,9 @@ header li {
 }
 
 #centerTitle {
-    height: 70px;
+    height: 50px;
     width: 910px;
-    padding: 10px 0px 0px 10px;
+    padding: 1px 0px 6px 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     color: #4aaaa5;
@@ -129,45 +129,164 @@ form {
 
 /*Portfolio specific styling*/
 
-#container3 {
-    width: 960;
-}
-
- .projectPic {
+.topRow {
+    width: 625px;
     height: 200px;
-    width: 200px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
 }
 
-#hangman {
-    margin: 0px 40px 20px 0px;
-}
-
-#rpg {
-    margin: 0px 40px 20px 0px;
-}
-
-#trivia {
-    margin: 0px 40px 20px 0px;
+#image1 {
+    width: 300px;
+    height: 200px;
+    float: left;
     
 }
 
+#hangman {
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
+
+#picBanner1 {
+    clear: both;
+    width: 300px;
+    height: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    margin-top: 130px;
+    padding: 20px 0px 20px 0px;    
+}
+
+#image2 {
+    width: 300px;
+    height: 200px;
+    float: right;
+
+}
+
+#rpg {
+    width: 300px;
+    height: 200px;
+    float: left;
+    
+
+}
+
+#picBanner2 {
+    clear: both;
+    width: 300px;
+    height: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    margin-top: 110px;
+    padding: 20px 0px;
+}
+
+.middleRow {
+    width: 625px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+#image3 {
+    width: 300px;
+    height: 200px;
+    float: left;
+
+}
+
+#trivia {
+    clear: both;
+    width: 300px;
+    height: 200px;
+    float: left;
+    
+    
+}
+
+#picBanner3 {
+    clear: both;
+    width: 300px;
+    height: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    margin-top: 130px;
+    padding: 20px 0px 
+}
+
+#image4 {
+    width: 300px;
+    height: 200px;
+    float: right;
+
+}
+
 #widget {
-    margin: 0px 40px 20px 0px;
+    clear: both;
+    width: 300px;
+    height: 200px;
+    float: left;
+    
+}
+
+#picBanner4 {
+    clear: both;
+    width: 300px;
+    height: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    margin-top: 110px;
+    padding: 20px 0px;
+}
+
+#image5 {
+    width: 300px;
+    height: 200px;
+    
 }
 
 #roshambo {
+    width: 300px;
+    height: 200px;
+    float: left;
     margin: 0px 40px 20px 0px;
+}
+
+#picBanner5 {
+    clear: both;
+    width: 300px;
+    height: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    margin-top: 130px;
+    padding: 20px 0px;
+
 }
 
 footer {
     clear: both;
     background-color: #666666;
     text-align: center;
-    padding-top: 40px;
+    padding: 15px 0;
     position: fixed;
     bottom: 0px;
     width: 100%;
-    height: 25px;
+    height: 20px;
     border-top: 5px solid #4aaaa5;
 
 
